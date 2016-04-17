@@ -15,9 +15,8 @@ a = x==y ? "yes" : (x%2 == 0 ? "no" : "may be")
 
 -----Java
 int x=5,y=8;       
-String a;            
-a = (x>y) ? "yes" : (y%2 == 0 ? "no" : "may be");        
-a = (x>y) ? "yes" : (y%2 == 0 ? "no" : "may be");
+String a;  
+a = x>y ? "yes" : (y%2 == 0 ? "no" : "may be");
 a = x<y ? "yes" : (y%2 == 0 ? "no" : "may be");
 a = x==y ? "yes" : (x%2 == 0 ? "no" : "may be");  
 """
